@@ -10,7 +10,10 @@ export default function Contact() {
           </span>
         </li>
         <li className="text-white">
-          Phone: <span className="text-white ms-1">+2348023221910</span>
+          Phone:{" "}
+          <a href="wa.me//+2348023221910" className="text-white ms-1">
+            +2348023221910
+          </a>
         </li>
         <li className="text-white">
           Email:
