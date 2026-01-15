@@ -8,7 +8,7 @@ export default function Navbar() {
         <img
           src={locked}
           alt="Bloombreed Logo"
-          className="h-[100px] w-[100px] rounded-[10px]"
+          className=" size-20 rounded-[10px]"
         />
         <div>
           <h1 className="text-orange-400 font-bold text-xl">
@@ -20,7 +20,7 @@ export default function Navbar() {
         </div>
       </div>
       {/* right side of navbar */}
-      <div className="border flex flex-col items-end border-lime-300 h-full w-[50%]">
+      <div className=" flex flex-col items-end h-full w-[50%]">
         <h1 className="text-white mb-2 font-bold text-xl text-right">
           Phone: +2348023221910
         </h1>
