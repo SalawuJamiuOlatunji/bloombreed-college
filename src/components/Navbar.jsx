@@ -2,7 +2,7 @@ import locked from "../assets/locked.png";
 
 export default function Navbar() {
   return (
-    <nav className="bg-blue-500 shadow-md px-8 py-4 flex items-center justify-between">
+    <nav className="bg-blue-500 shadow-md px-8 py-8 flex items-center justify-between">
       {/* left side of navbar */}
       <div className="flex items-center gap-3">
         <img
