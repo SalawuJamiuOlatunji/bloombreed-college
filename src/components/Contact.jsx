@@ -11,9 +11,9 @@ export default function Contact() {
         </li>
         <li className="text-white">
           Phone:{" "}
-          <a href="wa.me//+2348023221910" className="text-white ms-1">
+          <link to ="wa.me//+2348023221910" className="text-white ms-1">
             +2348023221910
-          </a>
+          </link>
         </li>
         <li className="text-white">
           Email:
