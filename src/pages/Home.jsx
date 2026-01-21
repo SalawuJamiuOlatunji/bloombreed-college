@@ -1,6 +1,5 @@
-import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import Footer from "../components/Footer";
+
 import Contact from "../components/Contact";
 import FeatureSection from "../components/FeatureSection";
 import Achievement from "../components/Achievement";
@@ -9,7 +8,6 @@ import Testimonials from "../components/Testimonials";
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <Hero />
 
       <section className="py-16 px-8 max-w-5xl mx-auto">
@@ -37,7 +35,6 @@ export default function Home() {
       <Mission />
       <Testimonials />
       <Contact />
-      <Footer />
     </div>
   );
 }

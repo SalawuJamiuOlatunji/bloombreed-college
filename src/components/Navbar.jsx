@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import locked from "../assets/locked.png";
 
-
 export default function Navbar() {
   return (
     <nav className="bg-blue-500 shadow-md px-8 py-6 flex items-center justify-between">
@@ -28,21 +27,21 @@ export default function Navbar() {
           Phone: +2348023221910
         </h1>
         <div className="hidden mt-2 md:flex gap-8 font-medium">
-          <link to = "/" className="text-white hover:text-green-700">
+          <Link to="/" className="text-white hover:text-green-700">
             Home
-          </link>
-          <link to = "/About" className="text-white hover:text-green-700">
+          </Link>
+          <Link to="/about" className="text-white hover:text-green-700">
             About
-          </link>
-          <link to = "/Admission" className="text-white hover:text-green-700">
+          </Link>
+          <Link to="/admission" className="text-white hover:text-green-700">
             Admission
-          </link>
-          <link to = "/Bills" className="text-white hover:text-green-700">
+          </Link>
+          <Link to="/bills" className="text-white hover:text-green-700">
             Bills
-          </link>
-          <link to = "/Careers" className="text-white hover:text-green-700">
+          </Link>
+          <Link to="/careers" className="text-white hover:text-green-700">
             Careers
-          </link>
+          </Link>
         </div>
       </div>
     </nav>

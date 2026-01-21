@@ -1,4 +1,4 @@
-export default function Admission() {
+export default function Careers() {
   return (
     <div>
       <section></section>
