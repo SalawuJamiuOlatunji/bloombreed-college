@@ -1,6 +1,5 @@
 import Hero from "../components/Hero";
 
-import Contact from "../components/Contact";
 import FeatureSection from "../components/FeatureSection";
 import Achievement from "../components/Achievement";
 import Mission from "../components/Mission";
@@ -34,7 +33,6 @@ export default function Home() {
       <Achievement />
       <Mission />
       <Testimonials />
-      <Contact />
     </div>
   );
 }

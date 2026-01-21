@@ -39,8 +39,8 @@ export default function Navbar() {
           <Link to="/bills" className="text-white hover:text-green-700">
             Bills
           </Link>
-          <Link to="/careers" className="text-white hover:text-green-700">
-            Careers
+          <Link to="/information" className="text-white hover:text-green-700">
+            Information
           </Link>
         </div>
       </div>

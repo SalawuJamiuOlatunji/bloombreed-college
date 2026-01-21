@@ -1,4 +1,4 @@
-export default function Careers() {
+export default function Informaion() {
   return (
     <div>
       <section></section>

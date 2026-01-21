@@ -15,7 +15,7 @@ export default function Contact() {
             href="https://wa.me/2348023221910"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white ml-1 underline"
+            className="text-white ml-1"
           >
             +2348023221910
           </a>

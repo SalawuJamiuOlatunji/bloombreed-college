@@ -3,9 +3,10 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Admission from "./pages/Admission";
 import Bills from "./pages/Bills";
-import Careers from "./pages/Careers";
+import Informaion from "./pages/Informaion";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -16,8 +17,9 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/admission" element={<Admission />} />
         <Route path="/bills" element={<Bills />} />
-        <Route path="/careers" element={<Careers />} />
+        <Route path="/information" element={<Informaion />} />
       </Routes>
+      <Contact />
       <Footer />
     </div>
   );
