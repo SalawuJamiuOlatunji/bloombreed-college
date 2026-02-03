@@ -3,20 +3,20 @@ import locked from "../assets/locked.PNG";
 export default function About() {
   return (
     <div>
-      <section className=" flex flex-col justify-center items-center border-2 border-purple-500">
+      <section className=" flex flex-col justify-center items-center">
         {/* top div */}
-        <div className="container flex items-start gap-6 p-[20px]  border-2 border-orange-500">
+        <div className="container  md:flex flex-row items-start  gap-6 p-[20px]">
           {/* top left image div */}
-          <div className=" flex-1 p-1  border-2 border-red-500 flex justify-center ">
+          <div className=" flex-1 p-1 ">
             <img
-              className="max-w-[400px] max-h-[400px] object-contain"
+              className=" w-full m-0 p-0 max-h-[400px] object-cover"
               src={locked}
               alt=""
             />
           </div>
 
           {/* top right div */}
-          <div className=" flex-1 border-2 border-red-500 p-1 flex flex-col gap-4 ">
+          <div className=" flex-1  p-1 flex flex-col gap-4 ">
             <h1 className="text-4xl font-medium font-serif italic">
               Our Mission
             </h1>
