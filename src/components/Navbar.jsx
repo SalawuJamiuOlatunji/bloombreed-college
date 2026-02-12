@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="sm:justify-center sm:p-0   md:bg-blue-500 shadow-md md:px-8 md:py-6 ">
       {/* Mobile below md */}
-      <div className="md:hidden border my-5 border-red-500 w-full h-auto flex flex-col justify-center items-center gap-3">
+      <div className="md:hidden my-5 py-3 border-red-500 w-full h-auto flex flex-col justify-center items-center gap-3">
         <div>
           <span className="bg-orange-500 p-3 my-2 rounded text-white">
             +2348023221910

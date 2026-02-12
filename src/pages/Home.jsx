@@ -12,7 +12,7 @@ export default function Home() {
       <section className="py-16 px-8 max-w-5xl mx-auto">
         <h2 className="text-[35px] font-bold text-gray-700 mb-4">
           Welcome to Bloombreed College
-          <hr className="bg-blue-600 h-1 w-[550px] mt-2" />
+          <hr className="hidden bg-blue-600 h-1 w-[550px] mt-2" />
         </h2>
 
         <p className="text-gray-600 mt-4">
