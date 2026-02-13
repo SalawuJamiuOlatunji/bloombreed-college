@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="bg-orange-500 py-8">
+    <div className=" flex justify-center md:block text-wrap bg-orange-500 py-8">
       <ul className="px-3 space-y-2">
         <li className="text-white text-xl">Bloombreed College</li>
         <li className="text-white">
