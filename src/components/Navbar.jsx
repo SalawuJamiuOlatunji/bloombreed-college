@@ -5,25 +5,28 @@ export default function Navbar() {
   return (
     <nav className=" w-full sm:p-5 shadow-lg  md:bg-blue-500 shadow-md md:px-8 md:py-6 ">
       {/* Mobile below md */}
+
       <div className="md:hidden  w-full h-auto flex flex-col justify-center items-center gap-3">
         <div className="mt-3">
-          <span className="bg-orange-500 p-3 my-2 rounded text-white">
-            +2348023221910
-          </span>
-        </div>
-        <div className="flex items-center gap-3">
-          <img
-            src={locked}
-            alt="Bloombreed Logo"
-            className="size-15 rounded-[10px]"
-          />
-          <div>
-            <h1 className="text-orange-400 font-bold text-xl">
-              Bloombreed College
-            </h1>
-            <p className="text-orange-300 text-sm">
-              Raising giants for a better future
-            </p>
+          <div className="md:hidden my-5 py-3 border-red-500 w-full h-auto flex flex-col justify-center items-center gap-3">
+            <span className="bg-orange-500 p-3 my-2 rounded text-white">
+              +2348023221910
+            </span>
+          </div>
+          <div className="flex items-center gap-3">
+            <img
+              src={locked}
+              alt="Bloombreed Logo"
+              className="size-15 rounded-[10px]"
+            />
+            <div>
+              <h1 className="text-orange-400 font-bold text-xl">
+                Bloombreed College
+              </h1>
+              <p className="text-orange-300 text-sm">
+                Raising giants for a better future
+              </p>
+            </div>
           </div>
         </div>
       </div>
