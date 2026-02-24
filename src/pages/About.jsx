@@ -2,7 +2,7 @@ import locked from "../assets/locked.PNG";
 
 export default function About() {
   return (
-    <div>
+    <div className="w-full">
       <section className=" flex flex-col justify-center items-center">
         {/* top div */}
         <div className="container  md:flex flex-row items-start  gap-6 p-[20px]">

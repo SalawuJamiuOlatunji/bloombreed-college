@@ -1,14 +1,20 @@
 import { Link } from "react-router-dom";
 import locked from "../assets/locked.png";
-
+import { Menu } from "lucide-react";
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 export default function Navbar() {
   return (
     <nav className=" w-full sm:p-5 shadow-lg  md:bg-blue-500 shadow-md md:px-8 md:py-6 ">
       {/* Mobile below md */}
 
-      <div className="md:hidden  w-full h-auto flex flex-col justify-center items-center gap-3">
+      <div className="md:hidden bg-white  rounded  w-full h-auto flex flex-col justify-center items-center gap-3">
         <div className="mt-3">
-          <div className="md:hidden my-5 py-3 border-red-500 w-full h-auto flex flex-col justify-center items-center gap-3">
+          <div className="md:hidden  py-3 border-red-500 w-full h-auto flex flex-col justify-center items-center gap-3">
             <span className="bg-orange-500 p-3 my-2 rounded text-white">
               +2348023221910
             </span>
@@ -26,6 +32,39 @@ export default function Navbar() {
               <p className="text-orange-300 text-sm">
                 Raising giants for a better future
               </p>
+            </div>
+            <div className="ms-10">
+              <Sheet>
+                <SheetTrigger>
+                  <Menu className="w-10 h-10" />
+                </SheetTrigger>
+                <SheetContent
+                  side="left"
+                  className="bg-orange-400 flex flex-col justify-evenly font-bold md:text-2xl w-50"
+                >
+                  <Link to="/" className="text-white hover:text-green-700">
+                    Home
+                  </Link>
+                  <Link to="/about" className="text-white hover:text-green-700">
+                    About
+                  </Link>
+                  <Link
+                    to="/admission"
+                    className="text-white hover:text-green-700"
+                  >
+                    Admission
+                  </Link>
+                  <Link to="/bills" className="text-white hover:text-green-700">
+                    Bills
+                  </Link>
+                  <Link
+                    to="/information"
+                    className="text-white hover:text-green-700"
+                  >
+                    Information
+                  </Link>
+                </SheetContent>
+              </Sheet>
             </div>
           </div>
         </div>

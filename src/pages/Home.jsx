@@ -6,7 +6,7 @@ import Mission from "../components/Mission";
 import Testimonials from "../components/Testimonials";
 export default function Home() {
   return (
-    <div>
+    <div className="w-full">
       <Hero />
 
       <section className="py-16 px-8 max-w-5xl mx-auto">
