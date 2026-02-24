@@ -54,8 +54,8 @@ export default function Navbar() {
                   >
                     Admission
                   </Link>
-                  <Link to="/bills" className="text-white hover:text-green-700">
-                    Bills
+                  <Link to="/bill" className="text-white hover:text-green-700">
+                    Bill
                   </Link>
                   <Link
                     to="/information"
@@ -105,8 +105,8 @@ export default function Navbar() {
             <Link to="/admission" className="text-white hover:text-green-700">
               Admission
             </Link>
-            <Link to="/bills" className="text-white hover:text-green-700">
-              Bills
+            <Link to="/bill" className="text-white hover:text-green-700">
+              Bill
             </Link>
             <Link to="/information" className="text-white hover:text-green-700">
               Information
