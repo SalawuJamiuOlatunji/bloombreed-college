@@ -9,7 +9,7 @@ export default function About() {
           {/* top left image div */}
           <div className=" flex-1 p-1 ">
             <img
-              className=" w-full m-0 p-0 max-h-[400px] md:h-screen rounded object-cover"
+              className=" w-full m-0 p-0 max-h-[400px]  rounded object-cover"
               src={bbc}
               alt=""
             />
@@ -21,30 +21,35 @@ export default function About() {
               Our Mission
             </h1>
             <p className="text-wrap text-lg text-gray-600">
-              Loudoun School for Advanced Studies offers an academic program
-              that engages and challenges students with real-world problems in a
-              learning environment that promotes curiosity, self-reliance, and
-              collaboration. Our teachers empower students to gain confidence,
-              build knowledge, discover new interests, and develop into lifelong
-              learners and leaders. We want our students to be happy and
-              optimistic, not overwhelmed and anxious. At LSAS, our students’
-              voices are heard and their ideas are valued. Together, the faculty
-              and students have built a place where we all feel a deep sense of
-              belonging.
+              Bloombreed College offers a dynamic academic program designed to
+              inspire excellence, creativity, and critical thinking in every
+              student. We provide a learning environment that challenges
+              students with real-world knowledge while nurturing curiosity,
+              discipline, and collaboration. At Bloombreed College, our
+              educators are committed to empowering students with confidence,
+              strong academic foundations, and essential life skills that
+              prepare them for higher education and future leadership. We
+              believe learning should be engaging and motivating — not stressful
+              or overwhelming. We value every student’s voice and encourage
+              innovation, self-expression, and personal growth. Together, our
+              teachers and students have built a supportive community where
+              everyone feels respected, inspired, and driven to succeed. At
+              Bloombreed College, we are not just educating students — we are
+              shaping future leaders.
             </p>
             <h2 className="text-wrap text-lg font-bold text-gray-600">
-              Curious students who aspire to positively impact the world belong
-              at Loudoun School for Advanced Studies.
+              Ambitious learners who are eager to grow, lead, and create
+              meaningful change find their home at Bloombreed College.
             </h2>
             <ul className="text-wrap text-lg text-gray-600">
               <li>
-                Our mixed-grade classrooms allow students to rise to their
-                appropriate academic level without the social complications of
-                skipping grades.
+                We create flexible classrooms where students grow academically
+                at the right level while thriving socially.
               </li>
               <li>
-                A strong sense of community is deeply embedded and celebrated
-                throughout our school’s culture.
+                At Bloombreed College, community is at the heart of everything
+                we do. We foster an environment where students, teachers, and
+                families grow together in support and collaboration.
               </li>
               <li>
                 We value innovation, creativity, and flexibility, so we are
@@ -56,11 +61,11 @@ export default function About() {
         {/* bottom div */}
         <div className="container p-20 text-center">
           <p className="font-sans">
-            Our schools do not discriminate in employment or the provision of
-            educational services on the basis of race, color, religion, age,
-            gender, national origin, disability, citizenship status, veteran
-            status, or any other characteristic protected by federal, state, or
-            local law.
+            Bloombreed College is committed to providing equal opportunities in
+            employment and education. We do not discriminate on the basis of
+            race, color, religion, age, gender, national origin, disability,
+            citizenship status, veteran status, or any other characteristic
+            protected by applicable law.
           </p>
         </div>
       </section>
