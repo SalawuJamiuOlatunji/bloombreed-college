@@ -1,93 +1,61 @@
+const services = {
+  "tuition fee": 10,
+  transportation: 10,
+  examination: 20,
+  "development levy": 30,
+  library: 40,
+  "medical/first aids": 50,
+  "p.t.a": 60,
+  "sport and games": 20,
+  "textbooks/statinary": 19,
+  "school uniform": 30,
+  music: 10,
+  "sport dress": 40,
+  "mid-day meal": 100,
+  "remedal lesson": 50,
+  "c.a dossier": 30,
+  "commputer/french/ict": 60,
+  "form/maintenance": 70,
+  excursion: 40,
+  party: 10,
+  "id'card": 40,
+  others: " ",
+};
+
 export default function Bills() {
+  const Total = Object.values(services).reduce(
+    (acc, amount) => acc + amount,
+    0,
+  );
   return (
-    <div className="w-full flex flex-row justify-center">
-      {/* Bill No */}
-      <ul className="border border-black [&>li]:border [&>li]:border-black">
-        <li>
-          <strong>NO</strong>
-        </li>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-        <li>6</li>
-        <li>7</li>
-        <li>8</li>
-        <li>9</li>
-        <li>10</li>
-        <li>11</li>
-        <li>12</li>
-        <li>13</li>
-        <li>14</li>
-        <li>15</li>
-        <li>16</li>
-        <li>17</li>
-        <li>18</li>
-        <li>19</li>
-        <li>20</li>
-        <li>21</li>
-        <li></li>
-        <li></li>
-      </ul>
-      {/* Bill Description */}
-      <ul className="border border-black [&>li]:border [&>li]:border-black">
-        <li>
-          <strong>DESCRIPTION OF SERVICES</strong>
-        </li>
-        <li>TUITION FEES</li>
-        <li>TRANSPORTATION (OPTIONAL)</li>
-        <li>EXAMINATIONS</li>
-        <li>DEVELOPMENT LEVY</li>
-        <li>LIBRARY</li>
-        <li>MEDICAL/FIRST AIDS</li>
-        <li>P.T.A</li>
-        <li>SPORT AND GAMES</li>
-        <li>TEXTBOOKS/STATIONARY</li>
-        <li>SCHOOL UNIFORM</li>
-        <li>MUSIC</li>
-        <li>SPORT'S DRESS</li>
-        <li>MID-DAY MEALS</li>
-        <li>REMEDIAL LESSON</li>
-        <li>C.A DOSSIER</li>
-        <li>COMPUTER/FRENCH/I.C.T</li>
-        <li>FORM/MAINTENANCE</li>
-        <li>EXCURSION</li>
-        <li>PARTY</li>
-        <li>I.D CARD</li>
-        <li>OTHERS</li>
-        <li></li>
-        <li>TOTAL</li>
-      </ul>
-      {/* Bill Amount */}
-      <ul className="border border-black [&>li]:border [&>li]:border-black">
-        <li>
-          <strong>AMOUNT</strong>
-        </li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li>#</li>
-        <li></li>
-      </ul>
+    <div className="w-full">
+      {/* Header */}
+      <div className="grid grid-cols-3 text-center font-bold border-b border-black">
+        <div className="border border-black">NO</div>
+        <div className="border border-black">DESCRIPTION OF SERVICES</div>
+        <div className="border border-black">AMOUNT</div>
+      </div>
+
+      {/* Rows */}
+      {Object.entries(services).map(([service, amount], index) => (
+        <div
+          key={service}
+          className="grid grid-cols-3 text-center border-b border-black"
+        >
+          <div className="border border-black">{index + 1}</div>
+          <div className="border border-black">{service.toUpperCase()}</div>
+          <div className="border border-black">₦{amount}</div>
+        </div>
+      ))}
+      {/* Total */}
+
+      <div className="grid grid-cols-3 text-center border-b border-black">
+        <div className="border border-black"></div>
+        <div className="px-2 flex justify-between border border-black font-bold">
+          <span>Total</span> <span>#</span>
+        </div>
+        <div className="border border-black">#{Total}</div>
+      </div>
     </div>
   );
 }
