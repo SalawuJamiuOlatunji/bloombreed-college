@@ -56,6 +56,10 @@ export default function Bills() {
         </div>
         <div className="border border-black">#{Total}</div>
       </div>
+      <div className="flex px-2 text-center text-orange-600 shadow-lg">
+        <strong>Note:</strong>
+        <p>All Fees Must be paid on or before first week of Resumption</p>
+      </div>
     </div>
   );
 }
