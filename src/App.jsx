@@ -2,7 +2,6 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Admission from "./pages/Admission";
-import Bills from "./pages/Bill";
 import Informaion from "./pages/Informaion";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";

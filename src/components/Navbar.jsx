@@ -76,7 +76,7 @@ export default function Navbar() {
         {/* left side of navbar */}
         <div className="flex items-center gap-3">
           <img
-            src={locked}
+            src={bbc}
             alt="Bloombreed Logo"
             className="size-20 rounded-[10px]"
           />
