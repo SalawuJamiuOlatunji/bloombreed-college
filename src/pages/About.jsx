@@ -59,7 +59,7 @@ export default function About() {
           </div>
         </div>
         {/* bottom div */}
-        <div className="container p-20 text-center">
+        <div className="text-wrap text-lg text-gray-600 p-4">
           <p className="font-sans">
             Bloombreed College is committed to providing equal opportunities in
             employment and education. We do not discriminate on the basis of
