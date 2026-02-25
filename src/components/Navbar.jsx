@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import locked from "../assets/locked.png";
+import bbc from "../assets/BBC LIGHT.jpg";
 import { Menu } from "lucide-react";
 import {
   Sheet,
@@ -21,7 +21,7 @@ export default function Navbar() {
           </div>
           <div className="flex items-center gap-3">
             <img
-              src={locked}
+              src={bbc}
               alt="Bloombreed Logo"
               className="size-15 rounded-[10px]"
             />

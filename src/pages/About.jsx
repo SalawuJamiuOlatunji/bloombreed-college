@@ -1,4 +1,4 @@
-import locked from "../assets/locked.PNG";
+import bbc from "../assets/BBC.jpg";
 
 export default function About() {
   return (
@@ -9,8 +9,8 @@ export default function About() {
           {/* top left image div */}
           <div className=" flex-1 p-1 ">
             <img
-              className=" w-full m-0 p-0 max-h-[400px] object-cover"
-              src={locked}
+              className=" w-full m-0 p-0 max-h-[400px] md:h-screen rounded object-cover"
+              src={bbc}
               alt=""
             />
           </div>
