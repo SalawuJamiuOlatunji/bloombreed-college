@@ -12,9 +12,9 @@ export default function Navbar() {
     <nav className=" w-full sm:p-5 shadow-lg  md:bg-blue-500 shadow-md md:px-8 md:py-6 ">
       {/* Mobile below md */}
 
-      <div className="md:hidden bg-white  rounded  w-full h-auto flex flex-col justify-center items-center gap-3">
+      <div className="md:hidden rounded  w-full h-auto flex flex-col justify-center items-center gap-3">
         <div className="mt-3">
-          <div className="md:hidden  py-3 border-red-500 w-full h-auto flex flex-col justify-center items-center gap-3">
+          <div className=" w-full h-auto flex flex-col justify-center items-center gap-3">
             <span className="bg-orange-500 p-3 my-2 rounded text-white">
               +2348023221910
             </span>
@@ -33,14 +33,14 @@ export default function Navbar() {
                 Raising giants for a better future
               </p>
             </div>
-            <div className="ms-10">
+            <div className="ml-auto">
               <Sheet>
                 <SheetTrigger>
                   <Menu className="w-10 h-10" />
                 </SheetTrigger>
                 <SheetContent
                   side="left"
-                  className="bg-orange-400 flex flex-col justify-evenly font-bold md:text-2xl w-50"
+                  className="bg-orange-400 flex flex-col justify-evenly font-bold md:text-2xl w-[250px]"
                 >
                   <Link to="/" className="text-white hover:text-green-700">
                     Home
@@ -72,9 +72,9 @@ export default function Navbar() {
 
       {/* md and above */}
 
-      <div className="hidden md:flex md:flex md:items-center md:justify-between">
+      <div className="hidden  md:flex items-center justify-between">
         {/* left side of navbar */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 w-full">
           <img
             src={bbc}
             alt="Bloombreed Logo"

@@ -9,7 +9,7 @@ export default function Home() {
     <div className="w-full">
       <Hero />
 
-      <section className="py-16 px-8 max-w-5xl mx-auto">
+      <section className="py-16 px-6 md:px-8 max-w-5xl mx-auto text-center">
         <h2 className="text-[35px] font-bold text-gray-700 mb-4">
           Welcome to Bloombreed College
           <hr className="hidden bg-blue-600 h-1 w-[550px] mt-2" />

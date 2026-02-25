@@ -30,7 +30,7 @@ export default function FeatureSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, id) => (
             <FeatureCard
-              key={feature.id}
+              key={feature.title}
               title={feature.title}
               description={feature.description}
             />

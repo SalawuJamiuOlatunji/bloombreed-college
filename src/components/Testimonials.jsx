@@ -11,7 +11,7 @@ const Testimonies = [
 
 export default function Testimonials() {
   return (
-    <section className="bg-white-50 py-20 px-8  mx-auto text-center">
+    <section className="bg-gray-50 py-20 px-8  mx-auto text-center">
       <h3 className="text-3xl font-bold mb-12">What Parents Say</h3>
       <div className="flex flex-col md:flex-row justify-center gap-8">
         {Testimonies.map((t, i) => (
