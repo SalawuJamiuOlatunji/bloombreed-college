@@ -16,15 +16,24 @@ export default function Navbar() {
         <div className="mt-3">
           <div className=" w-full h-auto flex flex-col justify-center items-center gap-3">
             <span className="bg-orange-500 p-3 my-2 rounded text-white">
-              +2348023221910
+              <a
+                href="https://wa.me/2348023221910"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white ml-1"
+              >
+                +2348023221910
+              </a>
             </span>
           </div>
           <div className="flex items-center gap-3">
-            <img
-              src={bbc}
-              alt="Bloombreed Logo"
-              className="size-15 rounded-[10px]"
-            />
+            <Link to="/" className="m-0 p-0">
+              <img
+                src={bbc}
+                alt="Bloombreed Logo"
+                className="size-15 rounded-[10px]"
+              />
+            </Link>
             <div>
               <h1 className="text-orange-400 font-bold text-xl">
                 Bloombreed College
@@ -97,11 +106,13 @@ export default function Navbar() {
       <div className="hidden  md:flex items-center justify-between">
         {/* left side of navbar */}
         <div className="flex items-center gap-3 w-full">
-          <img
-            src={bbc}
-            alt="Bloombreed Logo"
-            className="size-20 rounded-[10px]"
-          />
+          <Link to="/" className="m-0 p-0">
+            <img
+              src={bbc}
+              alt="Bloombreed Logo"
+              className="size-20 rounded-[10px]"
+            />
+          </Link>
           <div>
             <h1 className="text-orange-400 font-bold text-xl">
               Bloombreed College
@@ -115,7 +126,14 @@ export default function Navbar() {
         {/* right side of navbar */}
         <div className="flex flex-col items-end w-[50%]">
           <h1 className="text-white mb-2 font-bold text-xl text-right">
-            Phone: +2348023221910
+            <a
+              href="https://wa.me/2348023221910"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white ml-1"
+            >
+              Phone: +2348023221910
+            </a>
           </h1>
           <div className="hidden mt-2 md:flex gap-8 font-medium">
             <Link to="/" className="text-white hover:text-green-700">
