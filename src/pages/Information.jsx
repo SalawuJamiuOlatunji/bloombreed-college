@@ -1,16 +1,16 @@
 export default function Information() {
   const infos = [
     {
-      title: "P.T.A",
+      title: "P.T.A Meeting",
       message: "No information",
-      time: "10:00 AM",
+      time: "NULL",
       date: "NULL",
     },
     {
       title: "Holiday Notice",
       message: "Mid Term Break",
-      time: "12:00 AM",
-      date: "24/02/2026",
+      time: "NULL",
+      date: "NULL",
     },
     {
       title: "Examination Notice",
