@@ -12,6 +12,12 @@ export default function Information() {
       time: "12:00 AM",
       date: "24/02/2026",
     },
+    {
+      title: "Examination Notice",
+      message: "Do Your Best",
+      time: "NULL",
+      date: "NULL",
+    },
   ];
   return (
     <div className="w-full h-screen p-5">
