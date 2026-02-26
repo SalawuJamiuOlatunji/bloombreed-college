@@ -24,7 +24,14 @@ export default function Home() {
 
         <div className="mt-10">
           <button className="py-3 px-8 bg-blue-700 text-xl font-bold text-white rounded-full hover:bg-blue-800 transition">
-            Contact us
+            <a
+              href="https://wa.me/2348023221910"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white ml-1"
+            >
+              Contact us
+            </a>
           </button>
         </div>
       </section>

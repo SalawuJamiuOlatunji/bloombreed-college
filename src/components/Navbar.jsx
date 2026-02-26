@@ -9,10 +9,10 @@ import {
 } from "@/components/ui/sheet";
 export default function Navbar() {
   return (
-    <nav className=" w-full sm:p-5 shadow-lg  md:bg-blue-500 shadow-md md:px-8 md:py-6 ">
+    <nav className=" w-full sticky top-0 bg-white  sm:p-5 shadow-lg  md:bg-blue-500 shadow-md md:px-8 md:py-6 ">
       {/* Mobile below md */}
 
-      <div className="md:hidden rounded  w-full h-auto flex flex-col justify-center items-center gap-3">
+      <div className="md:hidden rounded   w-full h-auto flex flex-col justify-center items-center gap-3">
         <div className="mt-3">
           <div className=" w-full h-auto flex flex-col justify-center items-center gap-3">
             <span className="bg-orange-500 p-3 my-2 rounded text-white">

@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
-    <div className="w-full flex justify-center md:block text-wrap bg-orange-500 py-2">
-      <ul className="px-3 space-y-1">
+    <div className="w-full flex justify-center md:block text-wrap bg-orange-500 md:py-2">
+      <ul className="px-3 md:space-y-1">
         <li className="text-white text-xl">Bloombreed College</li>
         <li className="text-white">
           Location:{" "}
