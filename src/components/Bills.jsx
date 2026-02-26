@@ -28,7 +28,7 @@ export default function Bills() {
     0,
   );
   return (
-    <div className="w-full">
+    <div className="w-full text-[12px] md:text-[15px]">
       {/* Header */}
       <div className="grid grid-cols-3 text-center font-bold border-b border-black">
         <div className="border border-black">NO</div>
@@ -40,7 +40,7 @@ export default function Bills() {
       {Object.entries(services).map(([service, amount], index) => (
         <div
           key={service}
-          className="grid grid-cols-3 text-center border-b border-black"
+          className="grid grid-cols-3 break-words text-center border-b border-black"
         >
           <div className="border border-black">{index + 1}</div>
           <div className="border border-black">{service.toUpperCase()}</div>

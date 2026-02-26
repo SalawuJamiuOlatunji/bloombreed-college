@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Admission from "./pages/Admission";
-import Informaion from "./pages/Informaion";
+import Information from "./pages/Information";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
@@ -17,7 +17,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/admission" element={<Admission />} />
         <Route path="/bill" element={<Bill />} />
-        <Route path="/information" element={<Informaion />} />
+        <Route path="/information" element={<Information />} />
       </Routes>
       <Contact />
       <Footer />

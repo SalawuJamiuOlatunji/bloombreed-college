@@ -1,7 +1,3 @@
 export default function Admission() {
-  return (
-    <div>
-      <section></section>
-    </div>
-  );
+  return <div></div>;
 }

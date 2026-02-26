@@ -38,32 +38,54 @@ export default function Navbar() {
                 <SheetTrigger>
                   <Menu className="w-10 h-10" />
                 </SheetTrigger>
-                <SheetContent
-                  side="left"
-                  className="bg-orange-400 flex flex-col justify-evenly font-bold md:text-2xl w-[250px]"
-                >
-                  <Link to="/" className="text-white hover:text-green-700">
-                    Home
-                  </Link>
-                  <Link to="/about" className="text-white hover:text-green-700">
-                    About
-                  </Link>
-                  <Link
-                    to="/admission"
-                    className="text-white hover:text-green-700"
+                <SheetClose>
+                  <SheetContent
+                    side="left"
+                    className="bg-orange-400 flex flex-col justify-evenly font-bold md:text-2xl w-[250px]"
                   >
-                    Admission
-                  </Link>
-                  <Link to="/bill" className="text-white hover:text-green-700">
-                    Bill
-                  </Link>
-                  <Link
-                    to="/information"
-                    className="text-white hover:text-green-700"
-                  >
-                    Information
-                  </Link>
-                </SheetContent>
+                    <SheetClose asChild>
+                      <Link to="/" className="text-white hover:text-green-700">
+                        Home
+                      </Link>
+                    </SheetClose>
+
+                    <SheetClose asChild>
+                      <Link
+                        to="/about"
+                        className="text-white hover:text-green-700"
+                      >
+                        About
+                      </Link>
+                    </SheetClose>
+
+                    <SheetClose asChild>
+                      <Link
+                        to="/admission"
+                        className="text-white hover:text-green-700"
+                      >
+                        Admission
+                      </Link>
+                    </SheetClose>
+
+                    <SheetClose asChild>
+                      <Link
+                        to="/bill"
+                        className="text-white hover:text-green-700"
+                      >
+                        Bill
+                      </Link>
+                    </SheetClose>
+
+                    <SheetClose asChild>
+                      <Link
+                        to="/information"
+                        className="text-white hover:text-green-700"
+                      >
+                        Information
+                      </Link>
+                    </SheetClose>
+                  </SheetContent>
+                </SheetClose>
               </Sheet>
             </div>
           </div>
